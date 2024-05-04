@@ -1,0 +1,36 @@
+{
+  "name": "monteirolipee/sorteiofolha",
+  "description": "Site de Sorteio do Folha Extra",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Felipe Monteiro",
+      "email": "lipee_wb@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src"
+    },
+    "files": [
+      "src/Boot/Config.php",
+      "src/Boot/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^8.2",
+    "coffeecode/router": "2.0.*",
+    "coffeecode/datalayer": "2.0.*",
+    "coffeecode/optimizer": "2.1.*",
+    "league/plates": "v3.5.0",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-curl": "*",
+    "phpmailer/phpmailer": "^6.9",
+    "coffeecode/uploader": "^2.0",
+    "mercadopago/dx-php": "3.0.4"
+  }
+}
